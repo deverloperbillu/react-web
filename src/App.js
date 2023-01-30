@@ -5,14 +5,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/header';
 import Footer from './component/footer';
 import Body from './component/body';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
     
+    <Router>
     <Header />
-    <Body />
-    <Footer />
+      <Routes>
+        <Route path='/' element={<Body/>}/>
+      </Routes>
+      <Footer />
+    </Router>
+    
+    
     </>
   );
 }export default App;
