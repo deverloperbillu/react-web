@@ -23,6 +23,27 @@ const Header = () => {
 		</div>
 	</div>
 </header>
+
+<div class="siderbar">		
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="siderbar-logo">
+			<a class="navbar-brand" href="/">
+				<img src={logo} alt="Logo" />
+			</a>
+			<a href="/" class="btn-close"><i class="fa fa-times"></i></a>
+		</div>
+		
+		<div class="siderbar-menu">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/">Services</a></li>
+				<li><a href="/">Training</a></li>
+				<li><a href="/">Clients</a></li>
+				<li><a href="/">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>	
    </>
   )
 }
