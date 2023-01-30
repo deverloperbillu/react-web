@@ -11,3 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*, a, img, ul, ol{ font-family: 'Gilda Display', serif; list-style:none; padding:0px; margin:0px; outline:none; border:none; text-decoration:none; }
